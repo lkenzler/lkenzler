@@ -1,0 +1,93 @@
+body {
+    background-image: url(./bk.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.header {
+    background-color:#1F2937 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    
+}
+
+
+.headerlogo img {
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-top: 20px;
+    
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    
+}
+
+
+
+.headerlinks a {
+    margin-left: auto;
+    text-decoration: none;
+    list-style: none;
+    color: aqua;
+    font-size: 20px;
+    padding: 10px
+    
+}
+
+/* header part 2 */
+
+.hero {
+    background-color:#1F2937 ;
+    display: flex;  
+    padding-bottom: 50px;
+
+}
+
+.hero-img img {
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    padding-right: 100px;
+    padding-bottom: 50px;
+     
+}
+
+.context {
+    margin-right: auto;
+    width: 500px;
+    padding-left: 100px;
+}
+
+.context h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.context p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.context button {
+     background-color: #3882F6;
+     border-radius: 25px;
+     padding: 8px;
+     padding-top: 5px;
+     font-weight: bold;
+     color: white;
+     
+     
+}
+
+

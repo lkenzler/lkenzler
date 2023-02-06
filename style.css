@@ -1,8 +1,8 @@
 body {
     background-image: url(./bk.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
-    
+    padding: 20px;
 }
 
 .header {
@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 100px;
+    padding-right: 180px;
     
 }
 
@@ -86,8 +86,119 @@ body {
      padding-top: 5px;
      font-weight: bold;
      color: white;
-     
+}
+
+/* 3rd container */
+
+.photocontainer {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px; 
+    padding-bottom: 50px;
+    
+}
+
+.photocontainer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 4px rgb(26, 24, 24);
+    border-style: outset;
      
 }
 
+.photocontainerinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
 
+.photocontainer h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.photocontainer p{
+    display: flex;
+    justify-content: center;
+}
+
+/* quote */
+
+.quotecontainer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #E5E7EB;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote p{
+display: flex;
+justify-content:right;
+padding-right: 100px;
+font-size: larger;
+}
+
+/* call to action*/
+
+
+.actioncontainer{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.callcontainer{
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-color: none;
+    
+}
+
+.calltext{
+    flex: 1;
+    margin-right: 200px;  
+    color: #F9FAF8;
+}
+
+h3 {
+    margin: 0;
+    padding: 5px;
+    font-size: x-large;
+}
+
+
+.callbutton button{
+    background-color: #3882F6 ;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    color: white;
+    padding: px;
+    padding: 5px 20px ;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 10px;
+    color: #F9FAF8;
+}
